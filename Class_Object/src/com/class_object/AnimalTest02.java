@@ -8,10 +8,10 @@ public class AnimalTest02 {
         a = new Animal02();
 
         a.name = "원숭이";
-        a.age = 26;         // private 맴버이므로 접근 불가능
+       // a.age = 26;         // private 맴버이므로 접근 불가능
 
         System.out.print(a.name);
-        System.out.print(", " + a.age);     // 출력 불가능, 에러
+       // System.out.print(", " + a.age);     // 출력 불가능, 에러
     }
 }
 
